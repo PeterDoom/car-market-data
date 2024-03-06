@@ -1,0 +1,42 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/car_market_db
+    username: "test"
+    password: "example"
+  jpa:
+    database: postgresql
+#    hibernate:
+#      ddl-auto: update
+logging:
+  level:
+    io.demo.cars: debug
+exclusions:
+  excluded-list:
+    Mercedes-Benz:CLS,
+    Mercedes-Benz:CLK,
+    Mercedes-Benz:CLC,
+    Mercedes-Benz:CLA,
+    Mercedes-Benz:CL,
+    Mercedes-Benz:C,
+    Mercedes-Benz:B,
+    Mercedes-Benz:A,
+    Mercedes-Benz:E,
+    Mercedes-Benz:G,
+    Mercedes-Benz:GL,
+    Mercedes-Benz:GLA,
+    Mercedes-Benz:GLE,
+    Mercedes-Benz:GLS,
+    Mercedes-Benz:GLC,
+    Mercedes-Benz:ML,
+    Mercedes-Benz:R,
+    Mercedes-Benz:S,
+    Mercedes-Benz:SL,
+    Mercedes-Benz:SLK,
+    BMW:1,
+    BMW:2,
+    BMW:3,
+    BMW:4,
+    BMW:5,
+    BMW:6,
+    BMW:7,
+    BMW:M

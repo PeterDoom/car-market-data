@@ -1,0 +1,9 @@
+*.idea
+target
+*.iml
+output/
+.DS_Store
+scraper/.classpath
+scraper/.factorypath
+scraper/.project
+scraper/.settings
